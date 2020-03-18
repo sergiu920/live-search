@@ -19,8 +19,8 @@ if (isset($_POST['search'])) {
     echo '<ul>';
 
     //Перебираем результаты из базы данных
-    while ($Result = MySQLi_fetch_array($ExecQuery)) {
-        ?>
+    while ($Result = mysqli_fetch_array($ExecQuery)) {
+?>
         <!-- Создаем элементы списка. При клике на результат вызываем функцию обработчика fill() из файла "script.js". В параметре передаем найденное имя-->
 
         <li onclick='fill("<?php echo $Result['Name']; ?>")'>
@@ -29,8 +29,8 @@ if (isset($_POST['search'])) {
             </a>
         </li>
 
-        <?php
+<?php
     }
 }
 ?>
-</ul>
+    </ul>

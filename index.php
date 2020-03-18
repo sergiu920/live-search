@@ -10,19 +10,19 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<form>
-    <!-- Поле поиска -->
-    <label>
-        <input type="text" id="search" placeholder="Поиск людей" />
-    </label>
-</form>
+    <form>
+        <!-- Поле поиска -->
+        <label>
+            <input type="text" id="search" placeholder="Поиск людей" />
+        </label>
+    </form>
 
-<p>
-    <b>Например: </b>
-    <i>Василий, Татьяна, Наталия, Иван, Андрей</i>
-</p>
+    <p>
+        <b>Например: </b>
+        <i>Василий, Татьяна, Наталия, Иван, Андрей</i>
+    </p>
 
-<!-- Контейнер для результатов поиска -->
-<div id="display"></div>
+    <!-- Контейнер для результатов поиска -->
+    <div id="display"></div>
 </body>
 </html>
